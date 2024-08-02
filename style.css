@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: #F8EDED;
+}
+
+/* .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+} */
+
+.container-head, .recipe-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    padding: 50px 0;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: "Playwrite NL", cursive;
+    color: #FF8225;
+}
+
+.items {
+    list-style-type: none;
+}
+
+.item {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+/* unvisited link */
+a:link {
+color: #173B45;
+text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+color: #173B45;
+}
+
+/* mouse over link */
+a:hover {
+color: #FF8225;
+}
+
+/* selected link */
+a:active {
+color: #173B45;
+} 
+
+.recipe-content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.recipe-image {
+    display: flex;
+    width: 600px;
+    height: 380px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.recipe-description, .recipe-ingredients, .recipe-steps {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+.recipe-description p {
+    margin-bottom: 10px;
+}
+
+.recipe-ingredients li {
+    margin-left: 50px;
+}
+
+.recipe-steps ol li h4 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 5px;
+}
+
+.recipe-steps ol li p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+.recipe-steps li, .return {
+    margin-left: 50px;
+}
+
+.return {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+.recipe-content {
+    margin-bottom: 20px;
+}
